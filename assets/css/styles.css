@@ -1,0 +1,91 @@
+:root {
+    --teal :  teal;
+    --darkgrey :  rgb(63, 63, 63) ;
+    --white: white; 
+}
+
+body {
+    font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+header {
+    display:flex;
+    flex-direction:row;
+    background-color: var(--darkgrey);
+    color: var(--teal);
+    
+}
+
+.div_nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header_nav {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+h1 {
+    background-color: var(--teal);
+    color: var(--darkgrey);
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left:50px;
+    padding-right:10px;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px;
+    
+   
+    
+}
+
+nav a{
+    color:var(--teal);
+    font-size:1.5rem;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    header {
+      /* background: #772014; */
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      /* background-color: #bb8588; */
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      /* background-color: #8ac4ff; */
+    }
+  }

@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
+  
 }
 
 .background-1{
@@ -79,6 +80,11 @@ h4{
   font-size: 1.1rem;
     
 }
+
+.mainrow{
+  display: flex;
+
+}
 nav {
     display:flex;
     justify-content: flex-end;
@@ -95,6 +101,44 @@ nav a{
     border: 5px;
     padding: 5px;
     text-align: center;
+}
+.alt_web_site
+{
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+main {
+  display: flex;
+    /* flex-wrap: wrap; */
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.mainstyle {
+  display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.aboutMe{
+  margin:20px;
+}
+
+aside {
+  flex: 1;
+    background-color: --white;
+    color : --teal;
+    margin:20px;
+    text-align: left;
+    border-right-style: solid;
+    border-color: var(--darkgrey);
+    min-width:20%
+
 }
 
 

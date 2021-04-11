@@ -2,10 +2,12 @@
     --teal :  teal;
     --darkgrey :  rgb(63, 63, 63) ;
     --white: white; 
+    font-family:  Arial, Helvetica, sans-serif
+    
 }
 
 body {
-    font-family: Arial;
+  font-family:  Helvetica, Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -14,13 +16,15 @@ body {
   
 }
 .website_main{
-  flex: 4;
-    background-color: #fff;
+  flex: 1;
+    background-color: var(--teal);
     padding: 50px;
+    margin:50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    
 }
 .background-1{
   
@@ -36,13 +40,13 @@ body {
 
 
 .websites{
-  border-style: solid;
+  
     border-width: 1px;
     border-radius: 50px;
     padding: 10px;
     flex: 0 0 66%;
    
-    box-shadow: 10px 10px 5px #aaaaaa;
+    
     margin: 20px;
 }
 
@@ -74,7 +78,9 @@ header {
 .container {
   position: relative;
 }
-
+.contact_me{
+  display:flex;
+}
 /* Bottom right text */
 .text-block {
   position: absolute;
@@ -114,6 +120,7 @@ h3{
   margin-bottom: 20px;
   padding-left:50px;
   padding-right:10px;
+  border:5px;
 }
 
 h4{
@@ -143,7 +150,29 @@ nav a{
     padding: 5px;
     text-align: center;
 }
-.alt_web_site
+
+.brightness {
+  background-color: white;
+  display: inline-block;
+
+}
+.brightness img:hover {
+  opacity: .5;
+}
+
+.web-text-block{
+
+  
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: var(--teal);
+    color: var(--darkgrey);
+    padding: 5px 5px 5px 5px;
+}
+
+
+.alt_websites
 {
     flex: 4;
     background-color: #fff;
@@ -152,8 +181,20 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    
 
 }
+.alt_web_site{
+  flex: 0 0 300px;
+  background-color: var(--teal);
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
 main {
   display: flex;
     /* flex-wrap: wrap; */

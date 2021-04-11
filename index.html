@@ -19,9 +19,9 @@
         <section class="div_nav">
         <!-- Navbar-->
             <nav  class="header_nav">
-                <a href="#">About Me</a>
-                <a href="#">My Work</a>
-                <a href="#">Contact Information</a>
+                <a href="#about_me">About Me</a>
+                <a href="#my_work">My Work</a>
+                <a href="#contact">Contact Information</a>
                 <a href="#">Resume</a>
             </nav>
 
@@ -47,7 +47,7 @@
         <div class="mainrow">
             <aside>
                 <!-- Need Photo  / About Me -->
-                <h2>About Me</h2>
+                <h2 id="about_me">About Me</h2>
             </aside>
             <div class="aboutMe">
                 <img class="about_me_image" src="./assets/images/bio_kayak.jpg" alt="kayak" />
@@ -67,60 +67,64 @@
 
         <div class="mainrow">
             <aside>
-                <h2>My Work</h2>
+                <h2 id="my_work">My Work</h2>
                 <!-- My Work, with First Image larger than rest  -->
             </aside>
-            <section class="websites">
-                <div class="website_main">
-                        <!-- //image, header, and description -->
-                      <img src="./assets/images/chess_bio.jpg" alt="Chess Lessons">
-                            <div class="text-block">
-                                <header>Main Website</header>
-                                <p></p>
-                            </div>
-                        
+            <div class="brightness websites">                
+                <section class="website_main">
+                    <img src="./assets/images/chess_bio.jpg" alt="Chess Lessons">
+                    <div class="web-text-block">
+                        <header>Main Website</header>
+                        <p></p>
+                    </div>
+
+                </section>
+                
+                <div class="alt_websites">
+                    <section class="alt_web_site">
+                        <img src="./assets/images/bat_country.jpg" alt="bat country">
+                        <div class="web-text-block">
+                            <header>Website 1</header>
+                            <p></p>
+                        </div>
+                    </section>
+    
+                    <section class="alt_web_site">
+                        <img src="./assets/images/scuba.jpg" alt="scuba">
+                        <div class="web-text-block">
+                            <header>Website 3</header>
+                            <p></p>
+                        </div>
+                    </section>
+    
+                    <section class="alt_web_site">
+                        <img src="./assets/images/rockies.jpg" alt="rockies">
+                        <div class="web-text-block">
+                            <header>Website 4</header>
+                            <p></p>
+                        </div>
+                    </section>
+    
+                    <section class="alt_web_site">
+                        <img src="./assets/images/saxophone.jpg" alt="music">
+                        <div class="web-text-block">
+                            <header>Website 5</header>
+                            <p></p>
+                        </div>
+                    </section>
+
+
                 </div>
-
-                <section class="alt_web_site">
-                    <img src="" alt="">
-                    <div class="text-block">
-                        <header>Website 1</header>
-                        <p></p>
-                    </div>
-                </section>
-
-                <section class="alt_web_site">
-                    <img src="" alt="">
-                    <div class="text-block">
-                        <header>Website 3</header>
-                        <p></p>
-                    </div>
-                </section>
-
-                <section class="alt_web_site">
-                    <img src="" alt="">
-                    <div class="text-block">
-                        <header>Website 4</header>
-                        <p></p>
-                    </div>
-                </section>
-
-                <section class="alt_web_site">
-                    <img src="" alt="">
-                    <div class="text-block">
-                        <header>Website 5</header>
-                        <p></p>
-                    </div>
-                </section>
-            </section>
+                
+            </div>
         </div>
     
         <div class="mainrow">
             <section class="mainrow">
                 <aside>
-                    <h2>Contact Info</h2>
+                    <h2 id="contact">Contact Info</h2>
                 </aside>
-                <section class="contactMe"> 
+                <section class="contact_me"> 
                     <!-- Phone Number, Email, GitHub, Twitter, Spotify -->
                     <h3>734-489-5092</h3>
                     <h3>bentzbry@gmail.com</h3>
